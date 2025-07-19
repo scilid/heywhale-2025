@@ -1,0 +1,41 @@
+{
+    "folders": [
+        {
+            "name": "机器学习项目",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "/workspace/ml_env/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "jupyter.interpreter.autoStartServer": true,
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.formatting.provider": "black",
+        "python.sortImports.args": ["--profile", "black"],
+        "editor.formatOnSave": true,
+        "python.analysis.autoImportCompletions": true,
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/*.pyc": true,
+            "**/.pytest_cache": true,
+            "**/.coverage": true,
+            "**/.mypy_cache": true
+        },
+        "python.envFile": "${workspaceFolder}/.env"
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-toolsai.jupyter",
+            "ms-toolsai.jupyter-keymap",
+            "ms-toolsai.jupyter-renderers",
+            "ms-python.black-formatter",
+            "ms-python.isort",
+            "ms-python.flake8"
+        ]
+    }
+} 

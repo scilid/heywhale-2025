@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "/workspace/ml_env/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "jupyter.interpreter.autoStartServer": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.formatOnSave": true,
+    "python.analysis.autoImportCompletions": true
+}
